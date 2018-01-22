@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E11EA582201691FD00703787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA581201691FD00703787 /* AppDelegate.swift */; };
-		E11EA584201691FD00703787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA583201691FD00703787 /* ViewController.swift */; };
 		E11EA587201691FD00703787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11EA585201691FD00703787 /* Main.storyboard */; };
 		E11EA589201691FD00703787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11EA588201691FD00703787 /* Assets.xcassets */; };
 		E11EA58C201691FD00703787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11EA58A201691FD00703787 /* LaunchScreen.storyboard */; };
+		E11EA59420169A4E00703787 /* FlashlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA59320169A4E00703787 /* FlashlightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E11EA57E201691FD00703787 /* Flashlight3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11EA581201691FD00703787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E11EA583201691FD00703787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E11EA586201691FD00703787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11EA588201691FD00703787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11EA58B201691FD00703787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11EA58D201691FD00703787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11EA59320169A4E00703787 /* FlashlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E11EA581201691FD00703787 /* AppDelegate.swift */,
-				E11EA583201691FD00703787 /* ViewController.swift */,
+				E11EA59320169A4E00703787 /* FlashlightViewController.swift */,
 				E11EA585201691FD00703787 /* Main.storyboard */,
 				E11EA588201691FD00703787 /* Assets.xcassets */,
 				E11EA58A201691FD00703787 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11EA584201691FD00703787 /* ViewController.swift in Sources */,
+				E11EA59420169A4E00703787 /* FlashlightViewController.swift in Sources */,
 				E11EA582201691FD00703787 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
